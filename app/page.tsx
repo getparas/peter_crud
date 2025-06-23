@@ -1,4 +1,5 @@
 import UserForm from "@/components/forms/user-form";
+import UsersTable from "@/components/forms/users-table";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
@@ -31,6 +32,7 @@ export default function Home() {
           </DialogContent>
         </Dialog>
       </div>
+      <UsersTable />
     </div>
   );
 }
