@@ -1,3 +1,4 @@
+import UserForm from "@/components/forms/user-form";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
@@ -24,6 +25,8 @@ export default function Home() {
             <DialogHeader>
               <DialogTitle>Add User</DialogTitle>
               <DialogDescription>Add a user to the database.</DialogDescription>
+
+              <UserForm />
             </DialogHeader>
           </DialogContent>
         </Dialog>
